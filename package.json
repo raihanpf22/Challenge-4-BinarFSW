@@ -1,0 +1,24 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Project HTTP Server dan DOM",
+  "main": "server/index.js",
+  "author": "Raihan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fnurhidayat/probable-garbanzo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fnurhidayat/probable-garbanzo/issues"
+  },
+  "homepage": "https://github.com/fnurhidayat/probable-garbanzo#readme",
+  "dependencies": {
+    "mime": "^3.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
