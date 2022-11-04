@@ -27,10 +27,9 @@ class App {
 
 
     const filterer = {driver: driver.value, passenger: passenger.value};
-
+    console.log(filterer)
 
     const cars = await Binar.listCars(filterer);
-    console.log(cars);
     Car.init(cars);
   }
 

@@ -41,16 +41,15 @@ class Binar {
     // return cars;
 
     return cars.filter((car) => {
-      // if(filterer.driver && filterer.passenger){
-      //   return car.available === filterer.driver && car.capacity === filterer.passenger;
-      // } else if (filterer.driver){
-      //   return car.available === filterer.driver;
-      // } else if( filterer.passenger){
-      //   return car.capacity === filterer.passenger;
-      // }else{
-      //   return car;
-      // }
-      return car;
-    })
+    // Contoh aja filternya cuma type
+    console.log(`Ini Driver Bernilai : ${car.available == JSON.parse(filterer.driver)}`)
+    if (car.available == JSON.parse(filterer.driver)){
+      return;
+      // return car.includes(JSON.parse(filterer.driver));
+    }else {
+      console.log("ini else nya")
+      return car
+    } 
+    });
   }
 }
