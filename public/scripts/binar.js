@@ -44,7 +44,12 @@ class Binar {
 
     return cars.filter((car) => {
       // Contoh aja filternya cuma type
-      return car.available == JSON.parse(filterer.driver)? car.capacity == parseInt(filterer.passenger) ? car : void 0: void 0;
+      
+      return car.available == JSON.parse(filterer.driver)
+        ? car.capacity == parseInt(filterer.passenger)
+            ? car
+            : void 0
+          : void 0
     });
   }
 }
