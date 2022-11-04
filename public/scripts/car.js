@@ -47,7 +47,6 @@ class Car {
                 <div class="card-body" style="font-size: 14px;">
                     <p class="card-title">${this.manufacture} ${this.model}</p>
                     <p class="fw-bold">Rp. ${this.rentPerDay} / hari</p>
-                    <p>${this.available}</p>
                     <p class="card-text" style="height: 85px">${this.description}</p>
                     <div class=""><i class="bi bi-people me-2"></i>${this.capacity} Orang</div>
                     <div class=""><i class="bi bi-gear me-2"></i>${this.transmission}</div>

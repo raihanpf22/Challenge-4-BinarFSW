@@ -5,7 +5,7 @@ class App {
   }
 
   async init() {
-    this.btnSearchCars.onclick = this.run;
+    this.btnSearchCars.onclick = await this.run;
     
   }
 
